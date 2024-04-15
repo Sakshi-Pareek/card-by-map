@@ -18,7 +18,7 @@ export default function SlideCArd() {
   };
   const data = [
     {
-      image: "/assets/images/lorem_card_1.png",
+      image: "/assets/images/Lorem_card_1.png",
     },
     {
       image: "/assets/images/lorem_card_2.png",
