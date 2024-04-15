@@ -3,10 +3,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import React, { useRef } from "react";
-import Lorem1 from "../assets/images/lorem_card_1.png";
-import Lorem2 from "../assets/images/lorem_card_2.png";
-import Lorem3 from "../assets/images/lorem_card_3.png";
+import React, { useRef } from "react"; 
 import { DisNextBtn, DisPrevBtn } from "./Icons";
 
 export default function SlideCArd() {
@@ -21,13 +18,13 @@ export default function SlideCArd() {
   };
   const data = [
     {
-      image: Lorem1,
+      image: "/assets/images/lorem_card_1.png",
     },
     {
-      image: Lorem2,
+      image: "/assets/images/lorem_card_2.png",
     },
     {
-      image: Lorem3,
+      image: "/assets/images/lorem_card_3.png",
     },
   ];
   //   ----------slider-------
