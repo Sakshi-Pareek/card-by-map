@@ -1,5 +1,4 @@
 import { Exo_2 } from "next/font/google";
-// import Cards from "../../public/components/Cards";
 import SlideCArd from "../../public/components/SlideCArd";
 
 const exo_2 = Exo_2({
@@ -12,7 +11,6 @@ export default function Home() {
     <main
       className={` ${exo_2.className} overflow-hidden`}
     >
-      {/* <Cards /> */}
       <SlideCArd/>
     </main>
   );

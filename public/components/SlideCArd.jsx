@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React, { useRef } from "react";
-import Lorem1 from "../assets/images/lorem_caed_1.png";
+import Lorem1 from "../assets/images/lorem_card_1.png";
 import Lorem2 from "../assets/images/lorem_card_2.png";
 import Lorem3 from "../assets/images/lorem_card_3.png";
 import { DisNextBtn, DisPrevBtn } from "./Icons";
