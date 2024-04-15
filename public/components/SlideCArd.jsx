@@ -60,6 +60,8 @@ export default function SlideCArd() {
                 <Image
                   src={a.image}
                   alt="cardimg"
+                  width={"100"}
+                  height={"100"}
                   className="w-full rounded-[5px] group-hover:scale-[0.99] transition-all duration-500 ease-linear"
                 />
                 <h2 className="text-[#025066] text-[25px] font-bold leading-[139.687%] mb-2.5 mt-5">
@@ -104,6 +106,8 @@ export default function SlideCArd() {
                   <Image
                     src={a.image}
                     alt="card img"
+                    width={"100"}
+                    height={"100"}
                     className="w-full rounded-[5px] group-hover:scale-[0.99] transition-all duration-500 ease-linear"
                   />
                   <h2 className="text-[#025066] text-[25px] font-bold leading-[139.687%] mb-2.5 mt-5">
