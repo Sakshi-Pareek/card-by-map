@@ -105,6 +105,7 @@ export default function SlideCArd() {
                 <div className="bg-white rounded-[5px] sm:p-3 p-2 group-hover:shadow-[0_3px_10px_rgba(225,_225,_225,_1)] transition-all duration-500 ease-linear group cursor-pointer mx-3">
                   <Image
                     src={a.image}
+                    alt="card img"
                     width={"100"}
                     height={"100"}
                     className="w-full rounded-[5px] group-hover:scale-[0.99] transition-all duration-500 ease-linear"
